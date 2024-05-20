@@ -1,3 +1,0 @@
-What is your stance on healthcare?:1
-What is your stance on environmental protection?:1
-What should the government do to help the poor?:1
