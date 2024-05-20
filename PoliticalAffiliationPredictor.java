@@ -47,14 +47,23 @@ public class PoliticalAffiliationPredictor {
     public String conductSurveyAndPredict() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Political Affiliation Predictor Survey!");
-        
+
         for (String[] questionSet : questions) {
             System.out.println(questionSet[0]); // Print the question
             for (int i = 1; i < questionSet.length; i++) {
                 System.out.println(questionSet[i]); // Print the answer options
             }
-            System.out.print("Your answer: ");
-            String answer = scanner.nextLine().trim().toUpperCase();
+            String answer;
+            // Validate input to ensure it's one of the expected options (A, B, C, or D)
+            while (true) {
+                System.out.print("Your answer: ");
+                answer = scanner.nextLine().trim().toUpperCase();
+                if (answer.matches("[A-D]")) {
+                    break;
+                } else {
+                    System.out.println("Invalid input. Please enter A, B, C, or D.");
+                }
+            }
             recordResponse(answer, questionSet[0]); // Record response
         }
 
