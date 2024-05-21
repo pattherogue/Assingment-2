@@ -67,6 +67,24 @@ public class PoliticalAffiliationPredictor {
             recordResponse(answer, questionSet[0]); // Record response
         }
 
+        // Final question to determine user's self-identified political affiliation
+        System.out.println("Which political party do you affiliate with?");
+        for (int i = 0; i < parties.length; i++) {
+            System.out.println((i+1) + ". " + parties[i]);
+        }
+        int affiliation = 0;
+        while (true) {
+            System.out.print("Your answer (1-4): ");
+            affiliation = scanner.nextInt();
+            if (affiliation >= 1 && affiliation <= 4) {
+                break;
+            } else {
+                System.out.println("Invalid input. Please enter a number between 1 and 4.");
+            }
+        }
+        String userParty = parties[affiliation - 1];
+        System.out.println("Thank you for participating in the survey!");
+
         // Predict political affiliation based on collected data
         String predictedParty = predictParty();
         return predictedParty;
