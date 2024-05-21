@@ -4065,3 +4065,2804 @@ D:1
 User Party: Democrat
 C:5
 
+User Party: Green
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+A:2
+B:3
+D:3
+
+User Party: Democrat
+A:3
+C:3
+D:2
+
+User Party: Republican
+A:2
+B:4
+C:2
+
+User Party: Republican
+B:4
+C:2
+D:2
+
+User Party: Green
+A:3
+B:2
+C:1
+D:2
+
+User Party: Democrat
+A:2
+B:4
+C:2
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Green
+B:5
+C:2
+D:1
+
+User Party: Libertarian
+A:1
+B:2
+C:1
+D:4
+
+User Party: Green
+A:4
+C:2
+D:2
+
+User Party: Green
+A:1
+B:1
+C:5
+D:1
+
+User Party: Libertarian
+A:2
+B:1
+C:3
+D:2
+
+User Party: Libertarian
+A:1
+B:4
+C:2
+D:1
+
+User Party: Republican
+A:1
+B:2
+C:2
+D:3
+
+User Party: Libertarian
+A:1
+B:4
+C:1
+D:2
+
+User Party: Democrat
+A:4
+B:2
+D:2
+
+User Party: Republican
+A:2
+B:4
+C:1
+D:1
+
+User Party: Republican
+A:2
+B:3
+C:3
+
+User Party: Green
+A:3
+B:1
+C:4
+
+User Party: Democrat
+A:3
+B:2
+C:2
+D:1
+
+User Party: Green
+A:1
+B:1
+C:3
+D:3
+
+User Party: Green
+A:3
+B:1
+C:2
+D:2
+
+User Party: Republican
+B:4
+C:1
+D:3
+
+User Party: Libertarian
+A:3
+B:2
+C:1
+D:2
+
+User Party: Green
+A:2
+B:4
+C:1
+D:1
+
+User Party: Democrat
+A:1
+B:2
+C:3
+D:2
+
+User Party: Republican
+A:7
+B:1
+
+User Party: Democrat
+A:3
+B:2
+C:1
+D:2
+
+User Party: Green
+A:2
+B:2
+C:1
+D:3
+
+User Party: Democrat
+A:4
+C:4
+
+User Party: Libertarian
+A:2
+B:3
+D:3
+
+User Party: Libertarian
+A:3
+B:2
+C:1
+D:2
+
+User Party: Democrat
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+A:1
+B:6
+C:1
+
+User Party: Republican
+A:1
+B:2
+C:3
+D:2
+
+User Party: Green
+A:2
+B:1
+C:4
+D:1
+
+User Party: Green
+A:1
+B:2
+C:4
+D:1
+
+User Party: Republican
+A:1
+B:2
+C:4
+D:1
+
+User Party: Libertarian
+A:1
+B:4
+C:2
+D:1
+
+User Party: Green
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+A:1
+B:4
+D:3
+
+User Party: Republican
+A:1
+B:4
+C:3
+
+User Party: Green
+A:4
+C:3
+D:1
+
+User Party: Green
+A:3
+B:2
+C:1
+D:2
+
+User Party: Democrat
+A:3
+B:1
+C:2
+D:2
+
+User Party: Libertarian
+A:3
+B:2
+D:3
+
+User Party: Republican
+A:3
+B:1
+C:1
+D:3
+
+User Party: Libertarian
+A:1
+B:1
+C:4
+D:2
+
+User Party: Republican
+B:5
+C:2
+D:1
+
+User Party: Democrat
+A:1
+B:4
+C:2
+D:1
+
+User Party: Libertarian
+A:2
+B:3
+C:3
+
+User Party: Libertarian
+A:1
+B:3
+C:1
+D:3
+
+User Party: Green
+A:4
+B:4
+
+User Party: Republican
+A:3
+B:2
+C:2
+D:1
+
+User Party: Libertarian
+A:1
+B:2
+C:3
+D:2
+
+User Party: Green
+A:2
+B:1
+C:4
+D:1
+
+User Party: Green
+A:2
+B:2
+C:1
+D:3
+
+User Party: Green
+A:3
+C:1
+D:4
+
+User Party: Libertarian
+B:2
+C:1
+D:5
+
+User Party: Green
+A:1
+B:2
+C:1
+D:4
+
+User Party: Republican
+A:3
+B:4
+C:1
+
+User Party: Libertarian
+A:1
+B:2
+C:4
+D:1
+
+User Party: Democrat
+A:4
+B:3
+C:1
+
+User Party: Libertarian
+A:4
+D:4
+
+User Party: Democrat
+A:1
+B:2
+C:3
+D:2
+
+User Party: Republican
+A:2
+B:3
+C:1
+D:2
+
+User Party: Green
+A:2
+B:2
+C:3
+D:1
+
+User Party: Libertarian
+A:1
+B:4
+C:1
+D:2
+
+User Party: Green
+A:1
+B:3
+C:1
+D:3
+
+User Party: Green
+A:2
+B:3
+C:1
+D:2
+
+User Party: Democrat
+A:2
+B:2
+C:2
+D:2
+
+User Party: Democrat
+A:3
+B:2
+C:1
+D:2
+
+User Party: Republican
+A:2
+C:4
+D:2
+
+User Party: Republican
+A:1
+B:3
+C:3
+D:1
+
+User Party: Democrat
+B:3
+C:4
+D:1
+
+User Party: Libertarian
+A:2
+B:3
+C:2
+D:1
+
+User Party: Republican
+A:1
+C:4
+D:3
+
+User Party: Libertarian
+A:1
+B:2
+C:3
+D:2
+
+User Party: Libertarian
+B:2
+C:1
+D:5
+
+User Party: Democrat
+A:4
+C:2
+D:2
+
+User Party: Democrat
+A:2
+B:1
+C:1
+D:4
+
+User Party: Republican
+A:1
+B:2
+C:4
+D:1
+
+User Party: Republican
+A:3
+B:3
+C:1
+D:1
+
+User Party: Democrat
+A:1
+B:2
+C:1
+D:4
+
+User Party: Republican
+A:2
+B:3
+C:1
+D:2
+
+User Party: Democrat
+A:4
+B:2
+C:1
+D:1
+
+User Party: Libertarian
+A:1
+B:4
+C:2
+D:1
+
+User Party: Green
+A:1
+B:1
+C:4
+D:2
+
+User Party: Republican
+A:4
+B:1
+C:2
+D:1
+
+User Party: Green
+A:3
+B:2
+C:1
+D:2
+
+User Party: Libertarian
+A:2
+B:3
+C:2
+D:1
+
+User Party: Green
+A:4
+B:1
+C:3
+
+User Party: Green
+A:1
+B:1
+C:3
+D:3
+
+User Party: Republican
+A:2
+B:2
+C:2
+D:2
+
+User Party: Green
+A:4
+C:3
+D:1
+
+User Party: Libertarian
+B:3
+C:3
+D:2
+
+User Party: Democrat
+A:2
+B:1
+C:2
+D:3
+
+User Party: Democrat
+A:3
+B:1
+C:4
+
+User Party: Republican
+A:2
+B:2
+C:4
+
+User Party: Republican
+A:3
+C:3
+D:2
+
+User Party: Republican
+A:4
+C:2
+D:2
+
+User Party: Libertarian
+B:3
+C:1
+D:4
+
+User Party: Democrat
+A:2
+B:1
+C:2
+D:3
+
+User Party: Libertarian
+A:2
+B:2
+C:1
+D:3
+
+User Party: Republican
+A:1
+B:2
+C:3
+D:2
+
+User Party: Libertarian
+A:4
+B:1
+D:3
+
+User Party: Green
+A:5
+B:1
+C:1
+D:1
+
+User Party: Libertarian
+A:3
+B:1
+C:1
+D:3
+
+User Party: Libertarian
+B:4
+D:4
+
+User Party: Green
+A:2
+B:1
+C:2
+D:3
+
+User Party: Republican
+A:2
+B:3
+C:2
+D:1
+
+User Party: Republican
+A:2
+B:2
+C:2
+D:2
+
+User Party: Libertarian
+A:1
+B:2
+C:3
+D:2
+
+User Party: Republican
+A:2
+B:3
+C:2
+D:1
+
+User Party: Democrat
+A:3
+B:1
+D:4
+
+User Party: Democrat
+A:2
+B:2
+C:3
+D:1
+
+User Party: Democrat
+A:3
+B:1
+C:2
+D:2
+
+User Party: Republican
+A:4
+B:1
+D:3
+
+User Party: Green
+A:3
+B:3
+D:2
+
+User Party: Democrat
+A:2
+B:2
+D:4
+
+User Party: Green
+A:2
+B:3
+C:1
+D:2
+
+User Party: Republican
+A:3
+B:1
+C:2
+D:2
+
+User Party: Democrat
+A:4
+B:1
+C:2
+D:1
+
+User Party: Libertarian
+A:3
+B:3
+C:1
+D:1
+
+User Party: Republican
+A:1
+C:2
+D:5
+
+User Party: Green
+A:1
+B:2
+C:1
+D:4
+
+User Party: Republican
+A:1
+B:3
+C:2
+D:2
+
+User Party: Libertarian
+A:2
+B:2
+C:2
+D:2
+
+User Party: Republican
+A:5
+B:2
+D:1
+
+User Party: Democrat
+A:2
+B:3
+C:2
+D:1
+
+User Party: Green
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+A:3
+B:4
+D:1
+
+User Party: Republican
+A:1
+B:3
+C:1
+D:3
+
+User Party: Democrat
+A:3
+B:1
+C:1
+D:3
+
+User Party: Democrat
+A:2
+B:3
+D:3
+
+User Party: Democrat
+B:3
+C:4
+D:1
+
+User Party: Republican
+A:2
+B:3
+C:2
+D:1
+
+User Party: Libertarian
+B:4
+C:2
+D:2
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Democrat
+A:2
+B:1
+C:1
+D:4
+
+User Party: Democrat
+A:2
+B:2
+C:1
+D:3
+
+User Party: Democrat
+A:1
+B:1
+C:1
+D:5
+
+User Party: Republican
+A:2
+B:5
+D:1
+
+User Party: Green
+A:3
+B:3
+C:1
+D:1
+
+User Party: Green
+A:1
+B:4
+C:2
+D:1
+
+User Party: Republican
+A:2
+B:3
+C:2
+D:1
+
+User Party: Republican
+A:2
+B:2
+C:3
+D:1
+
+User Party: Green
+A:2
+B:3
+C:2
+D:1
+
+User Party: Green
+A:2
+B:1
+C:3
+D:2
+
+User Party: Republican
+A:3
+B:1
+C:2
+D:2
+
+User Party: Libertarian
+A:1
+B:1
+C:2
+D:4
+
+User Party: Green
+A:2
+C:3
+D:3
+
+User Party: Green
+A:2
+C:3
+D:3
+
+User Party: Democrat
+A:1
+B:4
+C:2
+D:1
+
+User Party: Libertarian
+A:3
+B:2
+C:1
+D:2
+
+User Party: Libertarian
+A:2
+B:2
+D:4
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Republican
+A:4
+C:4
+
+User Party: Libertarian
+A:4
+B:1
+C:3
+
+User Party: Republican
+A:2
+B:1
+C:2
+D:3
+
+User Party: Democrat
+B:1
+C:3
+D:4
+
+User Party: Green
+A:1
+B:2
+C:4
+D:1
+
+User Party: Green
+A:2
+C:4
+D:2
+
+User Party: Republican
+A:1
+B:1
+C:3
+D:3
+
+User Party: Green
+A:2
+B:5
+C:1
+
+User Party: Democrat
+A:1
+B:3
+C:2
+D:2
+
+User Party: Democrat
+A:2
+B:2
+C:3
+D:1
+
+User Party: Green
+A:1
+B:3
+C:1
+D:3
+
+User Party: Republican
+A:2
+B:4
+D:2
+
+User Party: Libertarian
+A:4
+B:2
+D:2
+
+User Party: Libertarian
+B:4
+D:4
+
+User Party: Green
+A:2
+B:2
+C:3
+D:1
+
+User Party: Republican
+B:3
+C:2
+D:3
+
+User Party: Green
+B:4
+C:2
+D:2
+
+User Party: Libertarian
+A:1
+C:6
+D:1
+
+User Party: Democrat
+A:1
+B:1
+C:1
+D:5
+
+User Party: Republican
+B:2
+C:5
+D:1
+
+User Party: Green
+A:1
+B:4
+C:2
+D:1
+
+User Party: Republican
+A:3
+B:1
+C:2
+D:2
+
+User Party: Libertarian
+A:1
+B:1
+C:3
+D:3
+
+User Party: Libertarian
+A:3
+B:3
+C:2
+
+User Party: Green
+A:4
+B:2
+C:1
+D:1
+
+User Party: Green
+B:1
+C:5
+D:2
+
+User Party: Libertarian
+A:3
+B:1
+C:2
+D:2
+
+User Party: Green
+A:1
+B:2
+C:2
+D:3
+
+User Party: Libertarian
+A:2
+B:2
+C:1
+D:3
+
+User Party: Republican
+A:5
+B:1
+C:2
+
+User Party: Libertarian
+A:2
+C:3
+D:3
+
+User Party: Green
+A:3
+B:2
+C:2
+D:1
+
+User Party: Republican
+A:1
+B:2
+C:4
+D:1
+
+User Party: Democrat
+A:2
+B:3
+C:1
+D:2
+
+User Party: Democrat
+B:4
+C:3
+D:1
+
+User Party: Democrat
+A:4
+B:1
+D:3
+
+User Party: Democrat
+A:2
+B:2
+C:3
+D:1
+
+User Party: Republican
+A:1
+B:3
+C:3
+D:1
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Libertarian
+B:3
+C:4
+D:1
+
+User Party: Libertarian
+B:3
+C:1
+D:4
+
+User Party: Republican
+A:3
+B:3
+D:2
+
+User Party: Green
+A:1
+B:1
+C:1
+D:5
+
+User Party: Green
+A:1
+B:1
+C:3
+D:3
+
+User Party: Libertarian
+A:3
+B:2
+C:1
+D:2
+
+User Party: Democrat
+A:1
+B:1
+C:2
+D:4
+
+User Party: Democrat
+A:1
+B:3
+C:1
+D:3
+
+User Party: Republican
+A:1
+C:4
+D:3
+
+User Party: Democrat
+A:4
+B:1
+C:1
+D:2
+
+User Party: Libertarian
+A:2
+B:2
+C:1
+D:3
+
+User Party: Republican
+A:3
+B:1
+C:3
+D:1
+
+User Party: Green
+A:3
+B:1
+C:3
+D:1
+
+User Party: Libertarian
+A:3
+B:1
+C:2
+D:2
+
+User Party: Democrat
+A:3
+C:2
+D:3
+
+User Party: Democrat
+A:3
+B:2
+D:3
+
+User Party: Green
+A:3
+B:1
+C:3
+D:1
+
+User Party: Democrat
+A:3
+B:1
+C:1
+D:3
+
+User Party: Democrat
+A:1
+B:3
+C:2
+D:2
+
+User Party: Democrat
+A:4
+B:1
+C:2
+D:1
+
+User Party: Republican
+A:1
+B:1
+C:3
+D:3
+
+User Party: Republican
+B:3
+C:2
+D:3
+
+User Party: Democrat
+A:2
+B:2
+C:2
+D:2
+
+User Party: Libertarian
+A:4
+B:2
+C:1
+D:1
+
+User Party: Libertarian
+A:1
+B:2
+D:5
+
+User Party: Republican
+A:4
+B:1
+C:2
+D:1
+
+User Party: Libertarian
+A:2
+B:2
+C:2
+D:2
+
+User Party: Democrat
+A:3
+B:1
+C:1
+D:3
+
+User Party: Democrat
+A:1
+B:2
+D:5
+
+User Party: Democrat
+A:5
+B:1
+D:2
+
+User Party: Green
+A:3
+B:1
+D:4
+
+User Party: Republican
+A:1
+C:4
+D:3
+
+User Party: Republican
+A:3
+B:3
+C:1
+D:1
+
+User Party: Republican
+B:2
+C:6
+
+User Party: Republican
+A:3
+B:2
+C:2
+D:1
+
+User Party: Democrat
+A:2
+B:1
+C:2
+D:3
+
+User Party: Green
+A:4
+B:1
+C:1
+D:2
+
+User Party: Republican
+A:3
+B:1
+C:3
+D:1
+
+User Party: Democrat
+A:3
+B:2
+D:3
+
+User Party: Libertarian
+A:2
+B:1
+C:2
+D:3
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Republican
+A:3
+B:2
+C:3
+
+User Party: Green
+A:1
+B:2
+C:2
+D:3
+
+User Party: Republican
+A:1
+B:3
+C:2
+D:2
+
+User Party: Green
+A:2
+B:1
+C:3
+D:2
+
+User Party: Democrat
+A:3
+B:5
+
+User Party: Libertarian
+A:3
+B:1
+C:3
+D:1
+
+User Party: Green
+A:2
+B:2
+C:1
+D:3
+
+User Party: Green
+A:1
+B:2
+C:4
+D:1
+
+User Party: Democrat
+B:4
+C:2
+D:2
+
+User Party: Democrat
+A:1
+B:4
+C:1
+D:2
+
+User Party: Green
+A:3
+B:3
+C:1
+D:1
+
+User Party: Green
+A:2
+B:3
+C:3
+
+User Party: Libertarian
+A:3
+B:3
+C:2
+
+User Party: Democrat
+B:4
+C:3
+D:1
+
+User Party: Libertarian
+B:1
+C:3
+D:4
+
+User Party: Democrat
+A:2
+B:3
+C:1
+D:2
+
+User Party: Green
+A:2
+B:2
+C:3
+D:1
+
+User Party: Democrat
+A:1
+B:1
+C:5
+D:1
+
+User Party: Green
+A:1
+B:5
+C:2
+
+User Party: Libertarian
+A:1
+B:1
+C:4
+D:2
+
+User Party: Green
+A:1
+B:2
+C:4
+D:1
+
+User Party: Republican
+A:2
+B:3
+C:2
+D:1
+
+User Party: Republican
+A:3
+C:3
+D:2
+
+User Party: Libertarian
+A:5
+B:2
+C:1
+
+User Party: Green
+A:2
+B:2
+C:1
+D:3
+
+User Party: Republican
+A:1
+B:2
+C:1
+D:4
+
+User Party: Democrat
+A:2
+B:2
+C:3
+D:1
+
+User Party: Democrat
+A:4
+B:2
+D:2
+
+User Party: Democrat
+B:4
+C:2
+D:2
+
+User Party: Democrat
+A:3
+B:1
+C:1
+D:3
+
+User Party: Green
+A:2
+B:2
+C:2
+D:2
+
+User Party: Green
+A:2
+B:3
+C:3
+
+User Party: Libertarian
+A:3
+B:3
+D:2
+
+User Party: Republican
+A:4
+C:2
+D:2
+
+User Party: Libertarian
+B:5
+C:2
+D:1
+
+User Party: Democrat
+B:2
+C:3
+D:3
+
+User Party: Republican
+A:6
+C:1
+D:1
+
+User Party: Green
+A:1
+B:2
+C:2
+D:3
+
+User Party: Republican
+A:4
+B:3
+C:1
+
+User Party: Democrat
+A:2
+B:1
+C:3
+D:2
+
+User Party: Republican
+A:3
+B:3
+C:1
+D:1
+
+User Party: Libertarian
+A:3
+B:1
+C:4
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Green
+A:1
+B:2
+C:2
+D:3
+
+User Party: Democrat
+A:2
+B:1
+C:3
+D:2
+
+User Party: Libertarian
+B:3
+C:3
+D:2
+
+User Party: Green
+A:2
+B:2
+C:2
+D:2
+
+User Party: Green
+B:3
+C:5
+
+User Party: Green
+A:2
+B:2
+C:1
+D:3
+
+User Party: Republican
+A:4
+B:1
+C:1
+D:2
+
+User Party: Green
+A:4
+B:1
+C:1
+D:2
+
+User Party: Democrat
+A:1
+B:4
+C:1
+D:2
+
+User Party: Republican
+A:2
+B:2
+C:2
+D:2
+
+User Party: Democrat
+A:2
+C:2
+D:4
+
+User Party: Libertarian
+A:2
+B:1
+C:2
+D:3
+
+User Party: Libertarian
+A:1
+B:2
+C:3
+D:2
+
+User Party: Green
+A:1
+B:3
+C:2
+D:2
+
+User Party: Democrat
+A:2
+B:2
+C:2
+D:2
+
+User Party: Democrat
+A:2
+B:1
+C:2
+D:3
+
+User Party: Democrat
+A:1
+B:3
+D:4
+
+User Party: Green
+A:2
+B:1
+C:1
+D:4
+
+User Party: Democrat
+B:3
+C:3
+D:2
+
+User Party: Libertarian
+A:1
+B:1
+C:3
+D:3
+
+User Party: Democrat
+A:6
+B:2
+
+User Party: Libertarian
+A:2
+B:2
+C:2
+D:2
+
+User Party: Green
+A:1
+B:3
+C:3
+D:1
+
+User Party: Democrat
+A:3
+B:1
+C:2
+D:2
+
+User Party: Green
+A:1
+B:3
+C:2
+D:2
+
+User Party: Libertarian
+A:1
+B:2
+C:2
+D:3
+
+User Party: Libertarian
+A:2
+B:1
+C:2
+D:3
+
+User Party: Democrat
+A:1
+B:3
+C:1
+D:3
+
+User Party: Green
+A:2
+B:2
+C:1
+D:3
+
+User Party: Republican
+A:2
+B:2
+C:3
+D:1
+
+User Party: Democrat
+A:2
+B:4
+D:2
+
+User Party: Democrat
+A:4
+B:3
+C:1
+
+User Party: Libertarian
+A:2
+B:1
+C:2
+D:3
+
+User Party: Libertarian
+A:3
+B:2
+C:1
+D:2
+
+User Party: Republican
+A:1
+B:1
+C:3
+D:3
+
+User Party: Republican
+A:5
+B:2
+C:1
+
+User Party: Democrat
+A:3
+C:1
+D:4
+
+User Party: Green
+A:5
+B:1
+C:1
+D:1
+
+User Party: Republican
+A:1
+B:2
+C:4
+D:1
+
+User Party: Libertarian
+B:3
+C:3
+D:2
+
+User Party: Republican
+A:3
+B:2
+C:2
+D:1
+
+User Party: Republican
+A:3
+B:2
+C:1
+D:2
+
+User Party: Libertarian
+A:1
+B:2
+C:3
+D:2
+
+User Party: Republican
+A:1
+B:2
+C:1
+D:4
+
+User Party: Libertarian
+A:1
+B:3
+C:2
+D:2
+
+User Party: Republican
+A:1
+B:1
+C:2
+D:4
+
+User Party: Democrat
+A:3
+C:2
+D:3
+
+User Party: Libertarian
+A:1
+B:3
+C:2
+D:2
+
+User Party: Green
+B:4
+C:1
+D:3
+
+User Party: Republican
+A:2
+B:1
+C:3
+D:2
+
+User Party: Green
+A:1
+C:3
+D:4
+
+User Party: Libertarian
+A:2
+B:2
+C:4
+
+User Party: Green
+A:3
+B:1
+C:3
+D:1
+
+User Party: Republican
+A:3
+B:1
+D:4
+
+User Party: Libertarian
+A:1
+C:1
+D:6
+
+User Party: Green
+A:3
+B:2
+C:1
+D:2
+
+User Party: Green
+A:3
+C:1
+D:4
+
+User Party: Green
+A:4
+B:2
+C:1
+D:1
+
+User Party: Republican
+A:1
+C:4
+D:3
+
+User Party: Democrat
+A:3
+B:1
+C:3
+D:1
+
+User Party: Democrat
+A:4
+B:2
+C:1
+D:1
+
+User Party: Libertarian
+B:3
+C:2
+D:3
+
+User Party: Libertarian
+A:2
+B:3
+C:2
+D:1
+
+User Party: Green
+A:2
+B:2
+C:1
+D:3
+
+User Party: Libertarian
+A:1
+B:3
+C:1
+D:3
+
+User Party: Republican
+A:1
+B:2
+C:3
+D:2
+
+User Party: Democrat
+A:3
+B:3
+D:2
+
+User Party: Green
+A:1
+B:3
+C:2
+D:2
+
+User Party: Republican
+A:2
+B:4
+C:2
+
+User Party: Green
+A:2
+C:4
+D:2
+
+User Party: Democrat
+A:2
+B:2
+D:4
+
+User Party: Green
+A:2
+B:2
+C:2
+D:2
+
+User Party: Republican
+A:3
+B:1
+C:2
+D:2
+
+User Party: Republican
+B:2
+C:4
+D:2
+
+User Party: Libertarian
+A:4
+B:1
+C:1
+D:2
+
+User Party: Republican
+A:1
+B:4
+C:2
+D:1
+
+User Party: Democrat
+A:4
+B:2
+C:2
+
+User Party: Libertarian
+A:1
+B:1
+C:4
+D:2
+
+User Party: Republican
+A:3
+B:1
+C:3
+D:1
+
+User Party: Green
+A:1
+B:1
+C:2
+D:4
+
+User Party: Democrat
+A:2
+B:2
+C:2
+D:2
+
+User Party: Republican
+A:1
+B:1
+C:3
+D:3
+
+User Party: Green
+A:3
+B:2
+C:2
+D:1
+
+User Party: Green
+A:1
+B:3
+C:2
+D:2
+
+User Party: Green
+A:2
+B:3
+C:1
+D:2
+
+User Party: Democrat
+B:2
+C:4
+D:2
+
+User Party: Green
+A:1
+B:3
+C:3
+D:1
+
+User Party: Green
+A:1
+B:1
+C:5
+D:1
+
+User Party: Libertarian
+B:2
+C:2
+D:4
+
+User Party: Republican
+A:4
+B:1
+C:1
+D:2
+
+User Party: Republican
+A:2
+B:2
+C:2
+D:2
+
+User Party: Democrat
+A:2
+B:1
+C:2
+D:3
+
+User Party: Libertarian
+A:1
+C:3
+D:4
+
+User Party: Libertarian
+B:4
+C:3
+D:1
+
+User Party: Democrat
+A:2
+B:2
+C:2
+D:2
+
+User Party: Green
+A:3
+B:3
+D:2
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Green
+A:2
+B:1
+C:2
+D:3
+
+User Party: Democrat
+A:1
+B:2
+C:1
+D:4
+
+User Party: Green
+A:2
+B:2
+D:4
+
+User Party: Democrat
+A:3
+B:1
+C:2
+D:2
+
+User Party: Libertarian
+A:1
+B:2
+C:3
+D:2
+
+User Party: Republican
+A:2
+B:1
+C:2
+D:3
+
+User Party: Democrat
+A:2
+C:3
+D:3
+
+User Party: Libertarian
+A:2
+B:1
+C:2
+D:3
+
+User Party: Green
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+B:4
+C:1
+D:3
+
+User Party: Green
+A:4
+C:2
+D:2
+
+User Party: Libertarian
+A:1
+B:5
+C:1
+D:1
+
+User Party: Republican
+A:2
+B:2
+C:2
+D:2
+
+User Party: Libertarian
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+A:1
+B:4
+C:3
+
+User Party: Libertarian
+B:1
+C:4
+D:3
+
+User Party: Libertarian
+A:2
+B:4
+D:2
+
+User Party: Republican
+A:3
+B:1
+D:4
+
+User Party: Democrat
+A:5
+C:2
+D:1
+
+User Party: Democrat
+A:1
+B:3
+C:1
+D:3
+
+User Party: Libertarian
+A:2
+B:2
+C:2
+D:2
+
+User Party: Green
+A:1
+B:3
+C:4
+
+User Party: Republican
+B:3
+C:2
+D:3
+
+User Party: Green
+A:3
+B:2
+C:3
+
+User Party: Republican
+A:4
+C:2
+D:2
+
+User Party: Democrat
+A:2
+B:2
+C:3
+D:1
+
+User Party: Democrat
+A:2
+B:2
+C:2
+D:2
+
+User Party: Libertarian
+A:2
+B:4
+C:1
+D:1
+
+User Party: Libertarian
+A:3
+B:3
+C:1
+D:1
+
+User Party: Libertarian
+B:2
+C:3
+D:3
+
+User Party: Green
+A:1
+B:2
+C:2
+D:3
+
+User Party: Green
+A:1
+B:2
+C:4
+D:1
+
+User Party: Green
+B:2
+C:5
+D:1
+
+User Party: Green
+B:4
+C:2
+D:2
+
+User Party: Green
+A:1
+B:1
+C:4
+D:2
+
+User Party: Democrat
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+A:3
+B:2
+C:1
+D:2
+
+User Party: Democrat
+A:1
+B:1
+C:5
+D:1
+
+User Party: Democrat
+A:4
+B:3
+C:1
+
+User Party: Green
+A:3
+B:3
+C:2
+
+User Party: Libertarian
+A:1
+B:1
+C:6
+
+User Party: Green
+A:2
+B:3
+C:2
+D:1
+
+User Party: Libertarian
+A:4
+C:2
+D:2
+
+User Party: Green
+A:1
+B:2
+C:3
+D:2
+
+User Party: Green
+A:4
+B:1
+C:1
+D:2
+
+User Party: Green
+B:2
+C:4
+D:2
+
+User Party: Green
+A:2
+B:2
+C:3
+D:1
+
+User Party: Republican
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+B:3
+C:3
+D:2
+
+User Party: Green
+A:1
+B:1
+C:3
+D:3
+
+User Party: Democrat
+A:2
+B:2
+C:2
+D:2
+
+User Party: Green
+A:1
+B:2
+C:2
+D:3
+
+User Party: Libertarian
+A:5
+C:2
+D:1
+
+User Party: Republican
+A:2
+B:2
+C:2
+D:2
+
+User Party: Republican
+A:3
+B:2
+C:2
+D:1
+
+User Party: Democrat
+B:2
+C:4
+D:2
+
+User Party: Republican
+A:2
+B:2
+C:4
+
+User Party: Green
+B:5
+D:3
+
+User Party: Libertarian
+B:4
+C:2
+D:2
+
+User Party: Democrat
+B:3
+C:4
+D:1
+
+User Party: Republican
+A:3
+B:1
+C:1
+D:3
+
+User Party: Democrat
+A:1
+B:3
+D:4
+
+User Party: Republican
+B:3
+C:3
+D:2
+
+User Party: Democrat
+A:3
+B:1
+D:4
+
+User Party: Green
+A:1
+B:2
+C:2
+D:3
+
+User Party: Republican
+B:2
+C:3
+D:3
+
+User Party: Libertarian
+A:2
+B:1
+C:3
+D:2
+
+User Party: Libertarian
+A:3
+B:2
+C:1
+D:2
+
+User Party: Libertarian
+A:3
+B:1
+C:1
+D:3
+
+User Party: Libertarian
+A:4
+B:2
+C:1
+D:1
+
+User Party: Libertarian
+B:1
+C:5
+D:2
+
+User Party: Republican
+A:2
+B:4
+C:1
+D:1
+
+User Party: Libertarian
+A:2
+B:2
+C:2
+D:2
+
+User Party: Democrat
+A:2
+B:1
+C:3
+D:2
+
+User Party: Libertarian
+A:4
+B:2
+D:2
+
+User Party: Libertarian
+A:3
+B:3
+D:2
+
+User Party: Green
+A:3
+B:1
+C:2
+D:2
+
+User Party: Green
+A:2
+B:2
+C:3
+D:1
+
+User Party: Green
+A:3
+B:2
+C:1
+D:2
+
+User Party: Republican
+A:2
+B:3
+C:1
+D:2
+
+User Party: Green
+B:3
+C:4
+D:1
+
+User Party: Republican
+A:3
+C:2
+D:3
+
+User Party: Green
+A:3
+B:1
+C:2
+D:2
+
+User Party: Libertarian
+A:4
+B:1
+C:1
+D:2
+
+User Party: Republican
+B:2
+C:4
+D:2
+
+User Party: Republican
+A:2
+B:3
+C:2
+D:1
+
+User Party: Green
+C:3
+D:5
+
+User Party: Libertarian
+A:3
+B:1
+C:2
+D:2
+
+User Party: Republican
+A:2
+B:2
+C:3
+D:1
+
+User Party: Republican
+A:3
+B:3
+D:2
+
+User Party: Democrat
+A:2
+B:3
+C:1
+D:2
+
+User Party: Libertarian
+A:1
+B:2
+C:1
+D:4
+
+User Party: Libertarian
+A:3
+C:4
+D:1
+
+User Party: Green
+B:2
+C:2
+D:4
+
+User Party: Democrat
+A:2
+B:1
+C:2
+D:3
+
+User Party: Democrat
+A:1
+B:3
+C:3
+D:1
+
+User Party: Libertarian
+A:1
+B:1
+C:4
+D:2
+
+User Party: Democrat
+B:3
+C:1
+D:4
+
+User Party: Green
+A:1
+B:3
+C:2
+D:2
+
+User Party: Republican
+A:1
+B:3
+C:1
+D:3
+
+User Party: Republican
+B:3
+C:3
+D:2
+
+User Party: Libertarian
+A:1
+B:2
+C:3
+D:2
+
+User Party: Libertarian
+A:1
+B:3
+C:3
+D:1
+
+User Party: Libertarian
+A:1
+B:3
+C:2
+D:2
+
+User Party: Republican
+A:1
+B:2
+C:3
+D:2
+
+User Party: Democrat
+A:1
+B:1
+C:4
+D:2
+
+User Party: Democrat
+A:1
+B:2
+C:1
+D:4
+
+User Party: Green
+A:2
+B:2
+C:3
+D:1
+
+User Party: Green
+A:4
+B:4
+
+User Party: Republican
+A:2
+B:3
+C:2
+D:1
+
+User Party: Democrat
+A:3
+B:2
+C:2
+D:1
+
+User Party: Democrat
+A:1
+B:2
+C:3
+D:2
+
+User Party: Democrat
+A:2
+B:1
+C:1
+D:4
+
+User Party: Republican
+A:2
+B:2
+C:2
+D:2
+
+User Party: Libertarian
+A:3
+B:1
+D:4
+
+User Party: Republican
+A:4
+B:1
+C:2
+D:1
+
+User Party: Libertarian
+A:2
+B:2
+D:4
+
+User Party: Republican
+A:1
+B:2
+C:1
+D:4
+
+User Party: Green
+B:3
+D:5
+
+User Party: Republican
+A:2
+B:2
+C:3
+D:1
+
+User Party: Green
+A:4
+B:1
+C:2
+D:1
+
+User Party: Green
+A:1
+B:3
+C:2
+D:2
+
+User Party: Democrat
+D:8
+
