@@ -32,6 +32,20 @@ public class PoliticalAffiliationPredictor {
             "B. Introduce market-based reforms to increase competition.",
             "C. Provide tax incentives for private health savings.",
             "D. Reduce government involvement in healthcare."
+        },
+        {
+            "What is your stance on education?",
+            "A. Increase funding for public schools.",
+            "B. Support school choice and charter schools.",
+            "C. Implement merit-based teacher pay.",
+            "D. Reduce federal involvement in education."
+        },
+        {
+            "What is your stance on taxation?",
+            "A. Increase taxes on the wealthy.",
+            "B. Reduce corporate taxes to stimulate growth.",
+            "C. Simplify the tax code and reduce loopholes.",
+            "D. Implement a flat tax rate."
         }
     };
 
@@ -109,12 +123,14 @@ public class PoliticalAffiliationPredictor {
 
     // Method to store raw responses
     private void storeRawResponses(Map<String, Integer> userResponses, String userParty) throws IOException {
-        try (FileWriter writer = new FileWriter("responses.txt", true)) {
-            writer.write("User Party: " + userParty + "\n");
-            for (Map.Entry<String, Integer> entry : userResponses.entrySet()) {
-                writer.write(entry.getKey() + ":" + entry.getValue() + "\n");
+        for (String party : parties) {
+            try (FileWriter writer = new FileWriter(party + "_responses.txt", true)) {
+                writer.write("User Party: " + userParty + "\n");
+                for (Map.Entry<String, Integer> entry : userResponses.entrySet()) {
+                    writer.write(entry.getKey() + ":" + entry.getValue() + "\n");
+                }
+                writer.write("\n");
             }
-            writer.write("\n");
         }
     }
 
@@ -145,8 +161,33 @@ public class PoliticalAffiliationPredictor {
         return probability;
     }
 
+    // Method to simulate multiple surveys to gather a large dataset
+    public void simulateMultipleSurveys() {
+        for (int i = 0; i < 100; i++) { // Simulate 100 user responses
+            Map<String, Integer> simulatedResponses = new HashMap<>();
+            for (String[] questionSet : questions) {
+                String answer = generateRandomAnswer();
+                recordResponse(answer, questionSet[0], simulatedResponses);
+            }
+            try {
+                storeRawResponses(simulatedResponses, parties[(int)(Math.random() * parties.length)]);
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing data to files.");
+                e.printStackTrace();
+            }
+        }
+    }
+
+    // Helper method to generate random answers for simulation
+    private String generateRandomAnswer() {
+        String[] answers = {"A", "B", "C", "D"};
+        return answers[(int)(Math.random() * answers.length)];
+    }
+
     public static void main(String[] args) {
         PoliticalAffiliationPredictor predictor = new PoliticalAffiliationPredictor();
+        // Simulate multiple surveys to gather a large dataset
+        predictor.simulateMultipleSurveys();
         String predictedParty = predictor.conductSurveyAndPredict();
         System.out.println("Based on your responses, your predicted political affiliation is: " + predictedParty);
     }
