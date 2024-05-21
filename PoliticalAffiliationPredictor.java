@@ -48,6 +48,9 @@ public class PoliticalAffiliationPredictor {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Political Affiliation Predictor Survey!");
 
+        // Data storage for current user responses
+        Map<String, Integer> userResponses = new HashMap<>();
+
         for (String[] questionSet : questions) {
             System.out.println(questionSet[0]); // Print the question
             for (int i = 1; i < questionSet.length; i++) {
@@ -64,7 +67,7 @@ public class PoliticalAffiliationPredictor {
                     System.out.println("Invalid input. Please enter A, B, C, or D.");
                 }
             }
-            recordResponse(answer, questionSet[0]); // Record response
+            recordResponse(answer, questionSet[0], userResponses); // Record response
         }
 
         // Final question to determine user's self-identified political affiliation
@@ -85,85 +88,66 @@ public class PoliticalAffiliationPredictor {
         String userParty = parties[affiliation - 1];
         System.out.println("Thank you for participating in the survey!");
 
+        // Store raw responses
+        try {
+            storeRawResponses(userResponses, userParty);
+        } catch (IOException e) {
+            System.out.println("An error occurred while writing data to files.");
+            e.printStackTrace();
+        }
+
         // Predict political affiliation based on collected data
-        String predictedParty = predictParty();
+        String predictedParty = predictParty(userResponses);
         return predictedParty;
     }
 
     // Method to record survey response for a political party
-    private void recordResponse(String answer, String question) {
-        // Iterate through parties and assign weights
-        for (String party : parties) {
-            Map<String, Integer> partyResponses = partyData.get(party);
-            int weight = determineWeight(answer, party);
-            partyResponses.put(question, partyResponses.getOrDefault(question, 0) + weight);
-        }
+    private void recordResponse(String answer, String question, Map<String, Integer> userResponses) {
+        // Save the raw response
+        userResponses.put(answer, userResponses.getOrDefault(answer, 0) + 1);
     }
 
-    // Method to determine weight based on answer and party
-    private int determineWeight(String answer, String party) {
-        // Customize weights for each answer and party
-        switch (party) {
-            case "Republican":
-                return answer.equals("D") ? 3 : (answer.equals("B") ? 2 : 1);
-            case "Democrat":
-                return answer.equals("A") ? 3 : (answer.equals("C") ? 2 : 1);
-            case "Libertarian":
-                return answer.equals("C") ? 3 : (answer.equals("D") ? 2 : 1);
-            case "Green":
-                return answer.equals("A") ? 3 : (answer.equals("B") ? 2 : 1);
-            default:
-                return 1;
+    // Method to store raw responses
+    private void storeRawResponses(Map<String, Integer> userResponses, String userParty) throws IOException {
+        try (FileWriter writer = new FileWriter("responses.txt", true)) {
+            writer.write("User Party: " + userParty + "\n");
+            for (Map.Entry<String, Integer> entry : userResponses.entrySet()) {
+                writer.write(entry.getKey() + ":" + entry.getValue() + "\n");
+            }
+            writer.write("\n");
         }
     }
 
     // Method to predict political affiliation based on collected data
-    private String predictParty() {
+    private String predictParty(Map<String, Integer> userResponses) {
         String predictedParty = "";
-        int maxScore = 0;
+        double maxProbability = 0;
         for (String party : parties) {
-            int partyScore = calculatePartyScore(party);
-            if (partyScore > maxScore) {
-                maxScore = partyScore;
+            double probability = calculateProbability(party, userResponses);
+            if (probability > maxProbability) {
+                maxProbability = probability;
                 predictedParty = party;
             }
         }
         return predictedParty;
     }
 
-    // Method to calculate score for a political party based on collected data
-    private int calculatePartyScore(String party) {
-        int score = 0;
+    // Method to calculate probability using a basic Naive Bayes classifier
+    private double calculateProbability(String party, Map<String, Integer> userResponses) {
+        double probability = 1.0;
         Map<String, Integer> partyResponses = partyData.get(party);
-        for (int value : partyResponses.values()) {
-            score += value;
+        for (Map.Entry<String, Integer> entry : userResponses.entrySet()) {
+            String answer = entry.getKey();
+            int count = entry.getValue();
+            int total = partyResponses.getOrDefault(answer, 0) + 1; // Add 1 for smoothing
+            probability *= (double) total / (partyResponses.size() + 1); // Adjust for smoothing
         }
-        return score;
+        return probability;
     }
 
     public static void main(String[] args) {
         PoliticalAffiliationPredictor predictor = new PoliticalAffiliationPredictor();
         String predictedParty = predictor.conductSurveyAndPredict();
         System.out.println("Based on your responses, your predicted political affiliation is: " + predictedParty);
-
-        // Write survey responses to data files
-        try {
-            writeDataToFile(predictor.partyData);
-        } catch (IOException e) {
-            System.out.println("An error occurred while writing data to files.");
-            e.printStackTrace();
-        }
-    }
-
-    // Method to write survey responses to data files
-    private static void writeDataToFile(Map<String, Map<String, Integer>> partyData) throws IOException {
-        for (String party : parties) {
-            Map<String, Integer> partyResponses = partyData.get(party);
-            try (FileWriter writer = new FileWriter(party + "_data.txt")) {
-                for (Map.Entry<String, Integer> entry : partyResponses.entrySet()) {
-                    writer.write(entry.getKey() + ":" + entry.getValue() + "\n");
-                }
-            }
-        }
     }
 }
