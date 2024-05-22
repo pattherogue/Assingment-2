@@ -1,9 +1,24 @@
 import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import weka.classifiers.functions.Logistic;
+import weka.core.Attribute;
+import weka.core.DenseInstance;
+import weka.core.Instances;
+import weka.core.Instance;
+import java.util.Arrays;
 
 public class PoliticalAffiliationPredictor {
 
+    private ArrayList<Map<String, String>> surveyData;
+    private static final String[] parties = {"Republican", "Democrat", "Libertarian", "Green"};
+    private Logistic model;
+    private Instances dataset;
+
+    // Initialize questions
     private static final String[][] questions = {
         {
             "What should the government do to help the poor?",
@@ -56,81 +71,131 @@ public class PoliticalAffiliationPredictor {
         }
     };
 
-    public static void main(String[] args) {
-        PoliticalAffiliationPredictor predictor = new PoliticalAffiliationPredictor();
-        predictor.conductSurveyAndPredict();
+    public PoliticalAffiliationPredictor() {
+        surveyData = new ArrayList<>();
+        setupDataset();
     }
 
-    public void conductSurveyAndPredict() {
+    private void setupDataset() {
+        ArrayList<Attribute> attributes = new ArrayList<>();
+        for (int i = 0; i < questions.length - 1; i++) {
+            attributes.add(new Attribute("Q" + (i + 1)));
+        }
+        ArrayList<String> classValues = new ArrayList<>(Arrays.asList(parties));
+        attributes.add(new Attribute("Party", classValues));
+        dataset = new Instances("SurveyData", attributes, 0);
+        dataset.setClassIndex(dataset.numAttributes() - 1);
+        model = new Logistic();
+    }
+
+    public void conductSurvey() {
         Scanner scanner = new Scanner(System.in);
-        int republicanScore = 0;
-        int democratScore = 0;
-        int libertarianScore = 0;
-        int greenScore = 0;
-        StringBuilder responses = new StringBuilder();
-        
+        Map<String, String> responses = new HashMap<>();
+
         System.out.println("Welcome to the Political Affiliation Predictor Survey!");
 
-        // Collect responses for all questions
-        for (String[] question : questions) {
-            System.out.println(question[0]);
-            for (int j = 1; j < question.length; j++) {
-                System.out.println(question[j]);
+        for (String[] questionSet : questions) {
+            System.out.println(questionSet[0]); // Print the question
+            for (int i = 1; i < questionSet.length; i++) {
+                System.out.println(questionSet[i]); // Print the answer options
             }
             String answer;
             while (true) {
                 System.out.print("Your answer: ");
                 answer = scanner.nextLine().trim().toUpperCase();
                 if (answer.matches("[A-D]")) {
-                    responses.append(answer).append(",");
-                    switch (answer) {
-                        case "A":
-                            democratScore++;
-                            break;
-                        case "B":
-                            republicanScore++;
-                            break;
-                        case "C":
-                            greenScore++;
-                            break;
-                        case "D":
-                            libertarianScore++;
-                            break;
-                    }
                     break;
                 } else {
                     System.out.println("Invalid input. Please enter A, B, C, or D.");
                 }
             }
-        }
-        
-        // Determine the predicted party
-        String predictedParty;
-        if (republicanScore >= democratScore && republicanScore >= libertarianScore && republicanScore >= greenScore) {
-            predictedParty = "Republican";
-        } else if (democratScore >= republicanScore && democratScore >= libertarianScore && democratScore >= greenScore) {
-            predictedParty = "Democrat";
-        } else if (libertarianScore >= republicanScore && libertarianScore >= democratScore && libertarianScore >= greenScore) {
-            predictedParty = "Libertarian";
-        } else {
-            predictedParty = "Green";
+            responses.put(questionSet[0], answer); // Record response
         }
 
-        System.out.println("Based on your responses, your predicted political affiliation is: " + predictedParty);
+        surveyData.add(responses); // Add responses to data storage
 
-        // Save user responses to a file
-        saveUserResponse(predictedParty, responses.toString());
-
-        // Close the scanner resource
-        scanner.close();
+        try {
+            writeDataToFile(responses);
+        } catch (IOException e) {
+            System.out.println("An error occurred while writing data to files.");
+            e.printStackTrace();
+        }
     }
 
-    private void saveUserResponse(String party, String responses) {
-        String filename = party + "_responses.txt";
-        try (FileWriter writer = new FileWriter(filename, true)) {
-            writer.write(responses + "\n");
-        } catch (IOException e) {
-            System.out.println("An error occurred while writing user responses to file.");
+    public void trainModel() throws Exception {
+        for (Map<String, String> response : surveyData) {
+            double[] values = new double[dataset.numAttributes()];
+            for (int i = 0; i < questions.length - 1; i++) {
+                values[i] = answerToNumeric(response.get(questions[i][0]));
+            }
+            values[dataset.classIndex()] = Arrays.asList(parties).indexOf(response.get(questions[questions.length - 1][0]));
+            dataset.add(new DenseInstance(1.0, values));
+        }
+        model.buildClassifier(dataset);
+    }
+
+    public void predictPoliticalAffiliation() throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        double[] values = new double[questions.length - 1];
+
+        System.out.println("Welcome to the Political Affiliation Predictor Prediction!");
+
+        for (int i = 0; i < questions.length - 1; i++) {
+            String[] questionSet = questions[i];
+            System.out.println(questionSet[0]); // Print the question
+            for (int j = 1; j < questionSet.length; j++) {
+                System.out.println(questionSet[j]); // Print the answer options
+            }
+            String answer;
+            while (true) {
+                System.out.print("Your answer: ");
+                answer = scanner.nextLine().trim().toUpperCase();
+                if (answer.matches("[A-D]")) {
+                    break;
+                } else {
+                    System.out.println("Invalid input. Please enter A, B, C, or D.");
+                }
+            }
+            values[i] = answerToNumeric(answer);
+        }
+
+        Instance newInst = new DenseInstance(1.0, values);
+        newInst.setDataset(dataset);
+        double predictedClass = model.classifyInstance(newInst);
+        System.out.println("Based on your responses, your predicted political affiliation is: " + parties[(int) predictedClass]);
+    }
+
+    private double answerToNumeric(String answer) {
+        switch (answer) {
+            case "A":
+                return 0.0;
+            case "B":
+                return 1.0;
+            case "C":
+                return 2.0;
+            case "D":
+                return 3.0;
+            default:
+                return -1.0; // This should never happen due to input validation
+        }
+    }
+
+    private void writeDataToFile(Map<String, String> responses) throws IOException {
+        try (FileWriter writer = new FileWriter("survey_data.txt", true)) {
+            for (Map.Entry<String, String> entry : responses.entrySet()) {
+                writer.write(entry.getKey() + ":" + entry.getValue() + "\n");
+            }
+            writer.write("\n");
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            PoliticalAffiliationPredictor predictor = new PoliticalAffiliationPredictor();
+            predictor.conductSurvey();
+            predictor.trainModel();
+            predictor.predictPoliticalAffiliation();
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

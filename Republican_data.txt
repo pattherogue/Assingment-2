@@ -1,3 +1,8 @@
 What is your stance on healthcare?:3
 What is your stance on environmental protection?:3
 What should the government do to help the poor?:3
+What is your stance on healthcare?:C
+What is your stance on environmental protection?:C
+What should the government do to help the poor?:C
+Which political party do you affiliate with?:C
+
