@@ -46,6 +46,13 @@ public class PoliticalAffiliationPredictor {
             "B. Support school choice and charter schools.",
             "C. Promote homeschooling and private education.",
             "D. Reduce federal involvement in education."
+        },
+        {
+            "Which political party do you affiliate with?",
+            "A. Republican",
+            "B. Democrat",
+            "C. Libertarian",
+            "D. Green"
         }
     };
 
